@@ -26,11 +26,13 @@ const showCartProducts = () => {
         productClone.querySelector(".productName").textContent = name;
         productClone.querySelector(".productImage").src = image;
         productClone.querySelector(".productPrice").textContent = LSActualData.price;
-        productClone.querySelector(".productQuantity").textContent = LSActualData.quantity;
-        productClone.querySelector(".stockElement").addEventListener("click",(e)=>{
-            incrementDecrement(e,id,stock,price);
-    })
-        productClone.querySelector(".remove-to-cart-button").addEventListener("click", () =>removeFromCart(id));
+        // productClone.querySelector(".productQuantity").textContent = LSActualData.quantity;
+        productClone.querySelector(".productPrice").textContent =
+            Number(LSActualData.price).toFixed(2);
+        productClone.querySelector(".stockElement").addEventListener("click", (e) => {
+            incrementDecrement(e, id, stock, price);
+        })
+        productClone.querySelector(".remove-to-cart-button").addEventListener("click", () => removeFromCart(id));
         CartElement.appendChild(productClone);
     })
 }

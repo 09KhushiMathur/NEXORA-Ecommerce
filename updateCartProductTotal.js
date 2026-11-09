@@ -11,6 +11,8 @@ export const ulpdateCartProductTota = () => {
         return acc + productPrice;
     }, intialValue);
     console.log(totalProductPrice);
-    productSubTotal.textContent = `₹ ${totalProductPrice}`;
-    productFinaliTotal.textContent = `₹ ${totalProductPrice + 50}`;
+    productSubTotal.textContent = `₹ ${totalProductPrice.toFixed(2)}`;
+productFinalTotal.textContent = `₹ ${(totalProductPrice + 50).toFixed(2)}`;
+    // productSubTotal.textContent = `₹ ${totalProductPrice}`;
+    // productFinaliTotal.textContent = `₹ ${totalProductPrice + 50}`;
 }

@@ -390,7 +390,7 @@ main .section-hero {
 .grid-three-cols {
   gap: 6.4rem;
 
-  & :div {
+  & div {
     justify-self: left;
   }
 }
