@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Nexora Store</title>
+  <link rel="stylesheet" href="./src/style.css">
+
+</head>
+
+<body>
+  <!-- Header / Navbar -->
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+        <div class="head_txt">
+          <p>Free shipping, 30-day return or refund guarantee.</p>
+        </div>
+        <div class="sing_in_up">
+          <a href="# ">SIGN IN</a>
+          <a href="# ">SIGN UP</a>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="index.html">
+          <!-- <img src="./public/images/logo.png" alt="Nexora eCommerce logo" class="logo" width="80%" height="auto" /> -->
+                    <img src="./public/images/NEXORA Blue Tech Wordmark.png" alt="Nexora eCommerce logo" class="logo" width="20%" height="auto" />
+
+        </a>
+      </div>
+
+      <input type="checkbox" id="check" class="checkbox" />
+      <label for="check" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">products</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+              <i class="fa-solid fa-cart-shopping"></i> 0</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Sign In Form Section -->
+  <section class="auth-section container">
+    <div class="auth-container">
+      <h2>Sign In to Your Account</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <button type="submit" class="btn add-to-cart-button">Sign In</button>
+      </form>
+      <div class="auth-switch">
+        <p>Don't have an account? <a href="auth.html">Sign Up</a></p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
