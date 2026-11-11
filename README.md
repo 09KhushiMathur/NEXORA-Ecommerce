@@ -6,7 +6,7 @@ NEXORA is a responsive e-commerce website built using HTML, CSS, and JavaScript.
 ## Links
 
 - **GitHub Repository:** [NEXORA-Ecommerce](https://github.com/09KhushiMathur/NEXORA-Ecommerce)
-- **Live Demo:** [View NEXORA Website](YOUR_NETLIFY_LINK_HERE)
+- **Live Demo:** [View NEXORA Website](https://nexora-store-2026.netlify.app/)
 
 ## Features
 
